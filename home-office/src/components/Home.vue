@@ -4,6 +4,9 @@
     <div class="container-inner">
     </div>
 
+    <div class="gif-container">
+      <img :src="officeIsBusy || setStatus ? busy_gif : available_gif" class="gif">
+    </div>
   </div>
   
 </template>
@@ -19,6 +22,8 @@ export default {
   data() {
     return {
       setStatus: false,
+      busy_gif:'https://media0.giphy.com/media/fQZX2aoRC1Tqw/giphy-downsized.gif',
+      available_gif:'https://media.tenor.com/images/2dc16521f20539f559920271d3058651/tenor.gif'
     }
   },
   components:{

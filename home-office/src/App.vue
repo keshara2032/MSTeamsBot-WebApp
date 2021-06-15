@@ -197,4 +197,17 @@ body {
   display: block;
   width: 100%;
 }
+
+.gif-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.gif{
+  width: 600px;
+  height: auto;
+}
 </style>
